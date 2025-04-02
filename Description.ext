@@ -1,0 +1,54 @@
+class CfgMusic
+{
+	tracks[]={};
+	class sound1
+	{
+		name = "";
+		sound[] = {"\sound\sound1.ogg", 1.0, 1.0};
+	};
+	class sound2
+	{
+		name = "";
+		sound[] = {"\sound\sound2.ogg", 1.0, 1.0};
+	};
+	class sound3
+	{
+		name = "";
+		sound[] = {"\sound\sound3.ogg", 1.0, 1.0};
+	};
+	class sound4
+	{
+		name = "";
+		sound[] = {"\sound\sound4.ogg", 1.0, 1.0};
+	};
+};
+
+class CfgSounds
+{
+	tracks[]={};
+	class sound5
+	{
+		name = "";
+		sound[] = {"\sound\sound5.ogg", 20, 20};
+	};
+	class sound6
+	{
+		name = "";
+		sound[] = {"\sound\sound6.ogg", 20, 20};
+	};
+	class sound7
+	{
+		name = "";
+		sound[] = {"\sound\sound7.ogg", 4, 1};
+	};
+	class sound8
+	{
+		name = "";
+		sound[] = {"\sound\sound8.ogg", 4, 1};
+	};
+	class sound9
+	{
+		name = "";
+		sound[] = {"\sound\sound9.ogg", 4, 1};
+	};
+};
