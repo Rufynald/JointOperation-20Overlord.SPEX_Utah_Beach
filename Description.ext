@@ -1,3 +1,6 @@
+enableDebugConsole = 1;
+respawnOnStart = -1;
+
 class CfgMusic
 {
 	tracks[]={};
