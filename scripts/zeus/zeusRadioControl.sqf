@@ -1,18 +1,3 @@
-/*
-    zeusRadioControl.sqf
-
-    Run on the server and on each client.
-    Example:
-    - initServer.sqf: [] execVM "scripts\zeus\zeusRadioControl.sqf";
-    - initPlayerLocal.sqf: [] execVM "scripts\zeus\zeusRadioControl.sqf";
-
-    In each Radio Trigger On Activation, use:
-    [player, "ALPHA"] remoteExecCall ["TAG_fnc_requestZeusRadioEventServer", 2];
-    [player, "BRAVO"] remoteExecCall ["TAG_fnc_requestZeusRadioEventServer", 2];
-
-    Edit the event switch on the server section to do your real mission work.
-*/
-
 if (isServer) then {
     TAG_fnc_requestZeusRadioEventServer = {
         params [
@@ -39,8 +24,6 @@ if (isServer) then {
         switch (_eventId) do {
             case "ALPHA": {
                 // Example: server-authoritative time change / big event
-                skipTime 6;
-
                 // Put your real event code here.
                 // Example:
                 // { _x setDamage 1; } forEach [veh1, veh2];
@@ -48,9 +31,6 @@ if (isServer) then {
             };
 
             case "BRAVO": {
-                // Example second event
-                skipTime -3;
-
                 // Put your real event code here.
             };
 
