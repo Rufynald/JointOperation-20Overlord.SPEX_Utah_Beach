@@ -7,3 +7,4 @@
         2 setRadioMsg "NULL"; // hides Radio Bravo
     };
 };
+[] execVM "scripts\zeus\zeusRadioControl.sqf";
