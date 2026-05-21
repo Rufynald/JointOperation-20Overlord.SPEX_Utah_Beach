@@ -1,5 +1,5 @@
 enableDebugConsole = 1;
-respawnOnStart = -1;
+respawnOnStart = 0;
 
 class CfgMusic
 {
